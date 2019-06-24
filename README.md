@@ -2,6 +2,8 @@
 
 This tiny Flask web application fetches the most recent (as of 15 mins ago) temperature data from an AWS DynamoDB table and returns the data as JSON.
 
+Intended to run on a (small) AWS EC2 instance and return data to a front-end web server
+
 ## Installation
 
 This project uses virtualenv (python3) to manage packages. Install packages with
